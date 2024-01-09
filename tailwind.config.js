@@ -1,9 +1,16 @@
 export default {
   content: [
     "./src/App.jsx",
-    "./src/components/Colours.jsx"
+    "./src/components/Colours.jsx",
+    "./src/components/Customization.jsx"
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
     extend: {
       colors: {
         "peachy-orange": {
