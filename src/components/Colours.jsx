@@ -25,6 +25,7 @@ const Colours = () => {
             <h2 className="bg-peachy-orange-100 hover:bg-peachy-orange-300 hover:cursor-pointer">
                 Color that i added through tailwind.config.js file
             </h2>
+            <br /> <br />
         </>
     )
 }

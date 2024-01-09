@@ -19,6 +19,7 @@ const Customization = () => {
                 tailwind.config.js file, we can directly add it here too
                 in the [] brackets
             </p>
+            <br /><br />
         </>
     )
 }
