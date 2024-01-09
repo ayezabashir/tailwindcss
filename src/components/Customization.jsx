@@ -14,6 +14,11 @@ const Customization = () => {
                 gap, inset, space, translate, scrollMargin, and
                 scrollPadding core plugins.
             </p>
+            <p className="bg-[#4251a4] p-[100px]">
+                If we do not want to add customization in the
+                tailwind.config.js file, we can directly add it here too
+                in the [] brackets
+            </p>
         </>
     )
 }
