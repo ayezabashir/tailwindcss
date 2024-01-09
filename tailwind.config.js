@@ -1,6 +1,7 @@
 export default {
   content: [
-    "./src/App.jsx"
+    "./src/App.jsx",
+    "./src/components/Colours.jsx"
   ],
   theme: {
     extend: {},
