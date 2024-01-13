@@ -1,5 +1,6 @@
 import Colours from "./components/Colours"
 import Customization from "./components/Customization"
+import Typography from "./components/Typography"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Colours />
       <Customization />
+      <Typography />
     </>
   )
 }

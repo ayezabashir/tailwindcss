@@ -2,7 +2,8 @@ export default {
   content: [
     "./src/App.jsx",
     "./src/components/Colours.jsx",
-    "./src/components/Customization.jsx"
+    "./src/components/Customization.jsx",
+    "./src/components/Typography.jsx",
   ],
   theme: {
     screens: {
@@ -19,6 +20,8 @@ export default {
       '5': '32px',
       '6': '48px',
     },
+    // extend will keep the initial configuration and adds to the already 
+    // existing classes
     extend: {
       colors: {
         "peachy-orange": {
