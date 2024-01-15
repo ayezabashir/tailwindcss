@@ -4,7 +4,8 @@ export default {
     "./src/components/Colours.jsx",
     "./src/components/Customization.jsx",
     "./src/components/Typography.jsx",
-    "./src/components/Spacesandsizes.jsx"
+    "./src/components/Spacesandsizes.jsx",
+    "./src/components/Flex.jsx"
   ],
   theme: {
     screens: {
