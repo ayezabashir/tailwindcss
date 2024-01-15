@@ -26,6 +26,14 @@ const Flex = () => {
                 <div className="w-32">05</div>
                 <div className="w-32">06</div>
             </div>
+            {/* Items-baseline 
+            align items along the container’s cross axis such that all of their baselines align
+            */}
+            <div className="flex items-baseline w-full">
+                <div className="w-1/3 bg-slate-600 pt-2 pb-6">01</div>
+                <div className="w-1/3 bg-slate-300 pt-8 pb-12">02</div>
+                <div className="w-1/3 bg-slate-900 pt-12 pb-4">03</div>
+            </div>
         </>
     )
 }
