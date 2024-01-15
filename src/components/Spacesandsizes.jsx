@@ -17,6 +17,10 @@ const Spacesandsizes = () => {
                 <div className="h-6 w-1/3 bg-slate-300 p-2">02</div>
                 <div className="h-6 w-1/3 bg-slate-800 p-2">03</div>
             </div>
+            <div className="w-full flex">
+                <div className="w-1/2 min-w-min bg-red-500"></div>
+                <div className="w-1/2 h-16 bg-green-900"></div>
+            </div>
             <br /><br />
         </>
     )

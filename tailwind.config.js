@@ -13,17 +13,17 @@ export default {
       lg: '976px',
       xl: '1440px',
     },
-    spacing: {
-      '1': '8px',
-      '2': '12px',
-      '3': '16px',
-      '4': '24px',
-      '5': '32px',
-      '6': '48px',
-    },
     // extend will keep the initial configuration and adds to the already 
     // existing classes
     extend: {
+      spacing: {
+        '1': '8px',
+        '2': '12px',
+        '3': '16px',
+        '4': '24px',
+        '5': '32px',
+        '6': '48px',
+      },
       colors: {
         "peachy-orange": {
           100: "#f58142",
