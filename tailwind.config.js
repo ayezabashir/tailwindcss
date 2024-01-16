@@ -5,7 +5,8 @@ export default {
     "./src/components/Customization.jsx",
     "./src/components/Typography.jsx",
     "./src/components/Spacesandsizes.jsx",
-    "./src/components/Flex.jsx"
+    "./src/components/Flex.jsx",
+    "./src/components/Grid.jsx"
   ],
   theme: {
     screens: {

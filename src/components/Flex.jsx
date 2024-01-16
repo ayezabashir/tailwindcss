@@ -34,6 +34,7 @@ const Flex = () => {
                 <div className="w-1/3 bg-slate-300 pt-8 pb-12">02</div>
                 <div className="w-1/3 bg-slate-900 pt-12 pb-4">03</div>
             </div>
+            <br /><br />
         </>
     )
 }
