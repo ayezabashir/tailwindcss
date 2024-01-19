@@ -6,9 +6,14 @@ export default {
     "./src/components/Typography.jsx",
     "./src/components/Spacesandsizes.jsx",
     "./src/components/Flex.jsx",
-    "./src/components/Grid.jsx"
+    "./src/components/Grid.jsx",
+    "./src/components/Layouts.jsx"
+
   ],
   theme: {
+    container: {
+      center: true,
+    },
     screens: {
       sm: '480px',
       md: '768px',
