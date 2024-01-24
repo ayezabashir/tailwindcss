@@ -8,8 +8,8 @@ export default {
     "./src/components/Flex.jsx",
     "./src/components/Grid.jsx",
     "./src/components/Layouts.jsx",
-    "./src/components/Border.jsx"
-
+    "./src/components/Border.jsx",
+    "./src/components/EffectsFilters.jsx",
   ],
   theme: {
     container: {

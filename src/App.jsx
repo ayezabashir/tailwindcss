@@ -5,8 +5,8 @@
 // import Layouts from "./components/Layouts"
 // import Spacesandsizes from "./components/Spacesandsizes"
 // import Typography from "./components/Typography"
-
-import Border from "./components/Border"
+// import Border from "./components/Border"
+import EffectsFilters from "./components/EffectsFilters"
 
 function App() {
 
@@ -19,7 +19,8 @@ function App() {
       {/* <Flex /> */}
       {/* <Grid /> */}
       {/* <Layouts /> */}
-      <Border />
+      {/* <Border /> */}
+      <EffectsFilters />
     </>
   )
 }
