@@ -7,7 +7,8 @@ export default {
     "./src/components/Spacesandsizes.jsx",
     "./src/components/Flex.jsx",
     "./src/components/Grid.jsx",
-    "./src/components/Layouts.jsx"
+    "./src/components/Layouts.jsx",
+    "./src/components/Border.jsx"
 
   ],
   theme: {
