@@ -6,7 +6,9 @@
 // import Spacesandsizes from "./components/Spacesandsizes"
 // import Typography from "./components/Typography"
 // import Border from "./components/Border"
-import EffectsFilters from "./components/EffectsFilters"
+// import EffectsFilters from "./components/EffectsFilters"
+
+import AnimationsTransition from "./components/AnimationsTransition"
 
 function App() {
 
@@ -20,7 +22,8 @@ function App() {
       {/* <Grid /> */}
       {/* <Layouts /> */}
       {/* <Border /> */}
-      <EffectsFilters />
+      {/* <EffectsFilters /> */}
+      <AnimationsTransition />
     </>
   )
 }

@@ -10,6 +10,7 @@ export default {
     "./src/components/Layouts.jsx",
     "./src/components/Border.jsx",
     "./src/components/EffectsFilters.jsx",
+    "./src/components/AnimationsTransition.jsx",
   ],
   theme: {
     container: {
