@@ -1,15 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply bg-green-100;
+  /* html {
+    color: red;
+  } */
+  h1 {
+    @apply mb-2 text-3xl font-bold; /* to avoid repition of classes on all h1 */
   }
-  body {
-    @apply m-3 p-2; /* we can chain properties like these with @apply */
-    font-family: "Lato", sans-serif;
+  h2 {
+    @apply mb-1 text-xl font-semibold;
+  }
+  p {
+    @apply text-base;
+  }
+  a {
+    @apply underline underline-offset-4 decoration-wavy text-blue-500 hover:text-purple-700 transition;
+  }
+  .btn {
+    @apply px-4 py-2 rounded-md hover:transition 
+    hover:duration-300 hover:opacity-80 disabled:bg-slate-300 disabled:opacity-100;
+  }
+  .btn-primary {
+    @apply bg-slate-500 text-white;
+  }
+  .btn-secondary {
+    @apply bg-rose-500 text-white;
   }
 }

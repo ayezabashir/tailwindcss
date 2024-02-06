@@ -7,8 +7,9 @@
 // import Typography from "./components/Typography"
 // import Border from "./components/Border"
 // import EffectsFilters from "./components/EffectsFilters"
+// import AnimationsTransition from "./components/AnimationsTransition"
 
-import AnimationsTransition from "./components/AnimationsTransition"
+import DesignSystem from "./components/DesignSystem"
 
 function App() {
 
@@ -23,7 +24,8 @@ function App() {
       {/* <Layouts /> */}
       {/* <Border /> */}
       {/* <EffectsFilters /> */}
-      <AnimationsTransition />
+      {/* <AnimationsTransition /> */}
+      <DesignSystem />
     </>
   )
 }

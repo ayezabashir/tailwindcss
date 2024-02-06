@@ -11,6 +11,7 @@ export default {
     "./src/components/Border.jsx",
     "./src/components/EffectsFilters.jsx",
     "./src/components/AnimationsTransition.jsx",
+    "./src/components/DesignSystem.jsx",
   ],
   theme: {
     container: {
