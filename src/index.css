@@ -18,6 +18,16 @@
   a {
     @apply underline underline-offset-4 decoration-wavy text-blue-500 hover:text-purple-700 transition;
   }
+  input,
+  select {
+    @apply outline-none text-slate-400 border border-slate-300 rounded-sm mb-1 p-1;
+  }
+  input[type="text"] {
+    @apply disabled:bg-slate-100    placeholder:italic;
+  }
+  input[type="checkbox"] {
+    @apply accent-lime-600;
+  }
   .btn {
     @apply px-4 py-2 rounded-md hover:transition 
     hover:duration-300 hover:opacity-80 disabled:bg-slate-300 disabled:opacity-100;
