@@ -2,7 +2,10 @@ const DesignSystem = () => {
     return (
         <>
             <div>
-
+                <h1>This is a title</h1>
+                <h2>This is subtitle</h2>
+                <p>This is a paragraph</p>
+                <a href="#">This is an anchor</a>
                 <div className="my-4">
                     <button className="btn btn-primary">Primary button</button>
                 </div>
