@@ -28,7 +28,14 @@ const DesignSystem = () => {
                     <input type="checkbox" name="check" id="check" />
                     <label htmlFor="check">Checkbox</label>
                 </div>
-
+                <div>
+                    <select name="" id="">
+                        <option value="">Option 1</option>
+                        <option value="">Option 2</option>
+                    </select>
+                </div>
+                <h1>This is a title</h1>
+                <h2>This is subtitle</h2>
             </div>
         </>
     )
