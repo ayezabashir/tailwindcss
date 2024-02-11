@@ -1,4 +1,5 @@
 export default {
+  darkMode: 'class',
   content: [
     "./src/App.jsx",
     "./src/components/Colours.jsx",
@@ -12,6 +13,7 @@ export default {
     "./src/components/EffectsFilters.jsx",
     "./src/components/AnimationsTransition.jsx",
     "./src/components/DesignSystem.jsx",
+    "./src/components/DarkMode.jsx",
   ],
   theme: {
     container: {

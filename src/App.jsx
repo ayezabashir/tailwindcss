@@ -8,13 +8,20 @@
 // import Border from "./components/Border"
 // import EffectsFilters from "./components/EffectsFilters"
 // import AnimationsTransition from "./components/AnimationsTransition"
+// import DesignSystem from "./components/DesignSystem"
 
-import DesignSystem from "./components/DesignSystem"
+import { useState } from "react"
+import DarkMode from "./components/DarkMode"
 
 function App() {
+  const [mode, setMode] = useState('light');
+  const toggleMode = () => {
+    setMode(mode === 'light' ? 'dark' : 'light')
+  }
+
 
   return (
-    <>
+    <div className={mode}>
       {/* <Colours /> */}
       {/* <Customization /> */}
       {/* <Typography /> */}
@@ -25,8 +32,12 @@ function App() {
       {/* <Border /> */}
       {/* <EffectsFilters /> */}
       {/* <AnimationsTransition /> */}
-      <DesignSystem />
-    </>
+      {/* <DesignSystem /> */}
+      <DarkMode />
+      <button
+        onClick={toggleMode}
+        className="dark:bg-slate-400 dark:text-white bg-slate-100 text-black">Switch to {mode === 'light' ? 'dark' : 'light'} mode</button>
+    </div>
   )
 }
 
